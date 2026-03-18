@@ -29,8 +29,8 @@
 1. Склонуйте репозиторій на свій комп’ютер:
 *git clone <https://github.com/KokhanTetiana/MobileLabsRN2026.git>*
 2. Перейдіть у папку проєкту та встановіть залежності:
-*cd <lab1>
-npm install*
+*cd <lab1>*
+*npm install*
 3. Запустіть проект:
 *npm start*
 4. Відкрийте додаток на пристрої чи емуляторі:
