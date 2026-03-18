@@ -1,11 +1,39 @@
-# Sample Snack app
+# Перший мобільний додаток
+Створено мобільний додаток для перегляду новин університету, фотогалереї та реєстрації користувачів.
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+## Опис проєкту:
+Додаток створено на **React Native** з використанням **Expo**.  
+Основні функції:
+- Перегляд новин, які мають заголовок, зображення та основний текст
+- Перегляд фотогалереї
+- Реєстрація користувача
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## Скріншоти екранів застосунку:
+**Головний екран (Новини):**  
+![News Screen](screenshots/main_screen1.jpg)
+![News Screen](screenshots/main_screen2.jpg)
+![News Screen](screenshots/main_screen3.jpg)
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+**Фотогалерея:**  
+![Gallery Screen](screenshots/screen_gallery.jpg)
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+**Реєстрація:**  
+![Register Screen](screenshots/screen_registration.jpg)
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+## Онлайн версія проєкту:
+Можна переглянути та протестувати цей додаток онлайн у **Expo Snack**:
+[Відкрити проєкт у Expo Snack](https://snack.expo.dev/@tetiana_kokhan/lab1)
+## Локальний запуск на комп’ютері (Expo CLI):
+Щоб запустити додаток локально, потрібно мати встановлений Node.js та Expo CLI.
+**Кроки запуску:**
+1. Склонуйте репозиторій на свій комп’ютер:
+*git clone <посилання-на-репозиторій>*
+2. Перейдіть у папку проєкту та встановіть залежності:
+*cd <назва-папки-проекту>
+npm install*
+3. Запустіть проект:
+*npm start*
+4. Відкрийте додаток на пристрої чи емуляторі:
+Відскануйте QR-код у додатку Expo Go на телефоні (Android або iOS).
+Або натисніть **a** для Android емулятора / **i** для iOS емулятора у терміналі.
+
