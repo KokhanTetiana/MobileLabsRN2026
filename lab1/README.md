@@ -24,7 +24,7 @@
 Можна переглянути та протестувати цей додаток онлайн у **Expo Snack**:
 [Відкрити проєкт у Expo Snack](https://snack.expo.dev/@tetiana_kokhan/lab1)
 ## Локальний запуск на комп’ютері (Expo CLI):
-Щоб запустити додаток локально, потрібно мати встановлений Node.js та Expo CLI.
+Щоб запустити додаток локально, потрібно мати встановлений Node.js та Expo CLI.<br>
 **Кроки запуску:**
 1. Склонуйте репозиторій на свій комп’ютер:<br>
 *git clone <https://github.com/KokhanTetiana/MobileLabsRN2026.git>*
