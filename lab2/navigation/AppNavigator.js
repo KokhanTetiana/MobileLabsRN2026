@@ -15,8 +15,6 @@ import { Ionicons } from "@expo/vector-icons";
 const Drawer = createDrawerNavigator();
 const Stack = createNativeStackNavigator();
 
-
-// Stack
 function StackNavigator() {
   return (
     <Stack.Navigator>
@@ -64,14 +62,14 @@ function CustomDrawerContent(props) {
     </DrawerContentScrollView>
   );
 }
-// Drawer
+
 export default function AppNavigator() {
   return (
         <Drawer.Navigator drawerContent={(props) => <CustomDrawerContent {...props} />}>
       <Drawer.Screen 
         name="Новини" 
         component={StackNavigator}
-        options={{ headerShown: false }} // 🔥 прибирає подвійний header
+        options={{ headerShown: false }} 
       />
       <Drawer.Screen 
   name="Контакти" 
